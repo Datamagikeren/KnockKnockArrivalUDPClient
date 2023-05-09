@@ -12,7 +12,7 @@ UDP_PORT = 8000
 
 ArrivalTime = datetime.datetime.now(cet).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-QrCode = 235235
+QrCode = 23523542
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
