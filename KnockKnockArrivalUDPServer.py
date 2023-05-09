@@ -4,7 +4,7 @@ import json
 
 UDP_IP = "0.0.0.0"
 UDP_PORT = 8000
-REST_URL = "https://knockknockrestapi.azurewebsites.net/api/students"
+REST_URL = "http://localhost:5093/api/arrivals"
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
